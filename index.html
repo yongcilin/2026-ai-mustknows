@@ -30,6 +30,7 @@
     td {border-bottom: 1px solid #f1f5f9; padding: 10px;}
     @media (max-width: 760px){
       .grid{grid-template-columns:1fr}
+      .edu-grid{grid-template-columns:1fr !important}
       .figure-card{flex-direction:column;text-align:center}
       .figure-img{width:150px;height:150px}
     }
@@ -111,20 +112,26 @@
 
     <section class="card">
       <h3>教育帳號申請、登入與切換</h3>
-      <h4>【申請教育局專屬 Gmail 信箱】</h4>
-      <ul>
-        <li>取得一個 <strong>xxx@gm.tn.edu.tw</strong> 的 Gmail 信箱。</li>
-        <li>進入 <a href="https://mail.google.com/a/gm.tn.edu.tw" target="_blank">mail.google.com/a/gm.tn.edu.tw</a>。</li>
-        <li>輸入 OPEN ID 帳號、密碼並同意授權。</li>
-        <li>若發生網頁錯誤，關掉瀏覽器後再重來。</li>
-      </ul>
-      <h4>【申請教育部專屬 Gmail 信箱】</h4>
-      <ul>
-        <li>取得一個 <strong>xxx@go.edu.tw</strong> 的 Gmail 信箱。</li>
-        <li>進入 <a href="https://go.k12cc.tw" target="_blank">https://go.k12cc.tw</a>。</li>
-        <li>點選右上角藍色按鈕「即刻啟用…」。</li>
-        <li>後續一樣使用 OPEN ID 登入並同意授權。</li>
-      </ul>
+      <div class="edu-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+        <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:14px;">
+          <h4 style="margin-top:0;color:#1e40af;">【申請臺南市教育局專屬 Gmail】</h4>
+          <ul>
+            <li>取得一個 <strong>xxx@gm.tn.edu.tw</strong> 的 Gmail 信箱。</li>
+            <li>進入 <a href="https://mail.google.com/a/gm.tn.edu.tw" target="_blank">mail.google.com/a/gm.tn.edu.tw</a>。</li>
+            <li>輸入 OPEN ID 帳號、密碼並同意授權。</li>
+            <li>若發生網頁錯誤，關掉瀏覽器後再重來。</li>
+          </ul>
+        </div>
+        <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:14px;">
+          <h4 style="margin-top:0;color:#1e40af;">【申請教育部專屬 Gmail】</h4>
+          <ul>
+            <li>取得一個 <strong>xxx@go.edu.tw</strong> 的 Gmail 信箱。</li>
+            <li>進入 <a href="https://go.k12cc.tw" target="_blank">https://go.k12cc.tw</a>。</li>
+            <li>點選右上角藍色按鈕「即刻啟用…」。</li>
+            <li>後續一樣使用 OPEN ID 登入並同意授權。</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section class="card">
