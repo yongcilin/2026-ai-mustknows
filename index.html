@@ -19,7 +19,13 @@
     img{max-width:100%;border-radius:10px;border:1px solid #e5e7eb;margin-top:10px}
     .toc-card{background:#eff6ff;border:1px solid #bfdbfe}
     .toc li{margin:8px 0;font-weight:500}
-    @media (max-width: 760px){.grid{grid-template-columns:1fr}}
+    .figure-card{display:flex;align-items:center;gap:20px}
+    .figure-img{width:120px;height:120px;object-fit:cover;border-radius:50%;border:3px solid #e5e7eb;flex-shrink:0}
+    @media (max-width: 760px){
+      .grid{grid-template-columns:1fr}
+      .figure-card{flex-direction:column;text-align:center}
+      .figure-img{width:150px;height:150px}
+    }
   </style>
 </head>
 <body>
@@ -44,21 +50,49 @@
     </section>
 
     <h2>一、模型趨勢：LLM 四巨頭巔峰對決</h2>
+    
     <section class="card">
-      <h3>OpenAI - 智力的黃金標準</h3>
-      <p>GPT-5.3 Spark / 5.2 Thinking。引入「思考鏈」可視化，推理能力與邏輯穩定性大幅提升。</p>
+      <div class="figure-card">
+        <img src="assets/images/fig-sam-altman.jpg" alt="Sam Altman" class="figure-img">
+        <div>
+          <h3>OpenAI - 智力的黃金標準</h3>
+          <p><strong>代表人物：Sam Altman</strong></p>
+          <p>GPT-5.3 Spark / 5.2 Thinking。引入「思考鏈」可視化，推理能力與邏輯穩定性大幅提升。</p>
+        </div>
+      </div>
     </section>
+
     <section class="card">
-      <h3>Anthropic - 工程師的靈魂伴侶</h3>
-      <p>Claude 4.6 (Opus / Sonnet)。業界最嚴謹的「憲法 AI」安全對齊，程式開發能力極強。</p>
+      <div class="figure-card">
+        <img src="assets/images/fig-dario-amodei.jpg" alt="Dario Amodei" class="figure-img">
+        <div>
+          <h3>Anthropic - 工程師的靈魂伴侶</h3>
+          <p><strong>代表人物：Dario Amodei</strong></p>
+          <p>Claude 4.6 (Opus / Sonnet)。業界最嚴謹的「憲法 AI」安全對齊，程式開發能力極強。</p>
+        </div>
+      </div>
     </section>
+
     <section class="card">
-      <h3>xAI - 即時性與代理敘事</h3>
-      <p>Grok 4.2。背靠 X 平台即時數據，強調多代理協作敘事。</p>
+      <div class="figure-card">
+        <img src="assets/images/fig-elon-musk.jpg" alt="Elon Musk" class="figure-img">
+        <div>
+          <h3>xAI - 即時性與代理敘事</h3>
+          <p><strong>代表人物：Elon Musk</strong></p>
+          <p>Grok 4.2。背靠 X 平台即時數據，強調多代理協作敘事。</p>
+        </div>
+      </div>
     </section>
+
     <section class="card">
-      <h3>Google - 多模態生態系</h3>
-      <p>Gemini 3 系列、Nano Banana 2 影像神技與 Lyria 3 音樂模型。</p>
+      <div class="figure-card">
+        <img src="assets/images/fig-demis-hassabis.jpg" alt="Demis Hassabis" class="figure-img">
+        <div>
+          <h3>Google DeepMind - 多模態生態系</h3>
+          <p><strong>代表人物：Demis Hassabis</strong></p>
+          <p>Gemini 3 系列、Nano Banana 2 影像神技與 Lyria 3 音樂模型。</p>
+        </div>
+      </div>
     </section>
 
     <h2>二、攻略：教育帳號與模型配額</h2>
