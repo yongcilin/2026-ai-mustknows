@@ -5,15 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>2026 Q1 AI Must-Knows</title>
   <style>
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans TC",sans-serif;line-height:1.65;margin:0;background:#f6f8fb;color:#1f2937}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans TC",sans-serif;line-height:1.68;margin:0;background:#f6f8fb;color:#1f2937}
     .wrap{max-width:980px;margin:0 auto;padding:28px 18px 60px}
     .hero{background:#111827;color:#fff;padding:40px 28px;border-radius:16px;text-align:center;margin-bottom:30px}
     h1,h2,h3{margin:.2em 0}
-    h2{margin-top:40px;border-left:5px solid #2563eb;padding-left:15px;color:#111827;font-size:1.8em}
-    .card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:24px;margin:20px 0;box-shadow:0 1px 3px rgba(0,0,0,0.1)}
-    .card h3{color:#2563eb;border-bottom:1px solid #f3f4f6;padding-bottom:10px;margin-bottom:15px}
+    h2{margin-top:40px;border-left:5px solid #2563eb;padding-left:15px;color:#111827;font-size:1.7em}
+    .card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:22px;margin:18px 0;box-shadow:0 1px 3px rgba(0,0,0,0.08)}
+    .card h3{color:#2563eb;border-bottom:1px solid #f3f4f6;padding-bottom:10px;margin-bottom:12px}
     .muted{color:#6b7280}
     ul,ol{margin:8px 0 0 22px}
+    li{margin:6px 0}
     .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:15px 0}
     .ph{border:1px dashed #94a3b8;border-radius:10px;padding:30px 14px;background:#f8fafc;text-align:center;color:#475569}
     img{max-width:100%;border-radius:10px;border:1px solid #e5e7eb;margin-top:10px}
@@ -21,6 +22,7 @@
     .toc li{margin:8px 0;font-weight:500}
     .figure-card{display:flex;align-items:center;gap:20px}
     .figure-img{width:120px;height:120px;object-fit:cover;border-radius:50%;border:3px solid #e5e7eb;flex-shrink:0}
+    .tag{display:inline-block;background:#eef2ff;color:#3730a3;padding:2px 8px;border-radius:999px;font-size:.82rem;margin-bottom:8px}
     @media (max-width: 760px){
       .grid{grid-template-columns:1fr}
       .figure-card{flex-direction:column;text-align:center}
@@ -50,7 +52,7 @@
     </section>
 
     <h2>一、模型趨勢：LLM 四巨頭巔峰對決</h2>
-    
+
     <section class="card">
       <div class="figure-card">
         <img src="assets/images/fig-sam-altman.jpg" alt="Sam Altman" class="figure-img">
@@ -72,7 +74,7 @@
           <p><strong>代表人物：Dario Amodei</strong></p>
           <p><strong>最新模型：</strong>Claude 4.6（Opus / Sonnet）。</p>
           <p><strong>核心特色：</strong>憲法 AI 安全對齊、程式碼邏輯能力強、跨會話協作穩定。</p>
-          <p><strong>產業觀察：</strong>因理念爭議傳出拒絕五角大廈標案；同時企業端出現 AI 導向的人力重整案例（如 Block/Square）。</p>
+          <p><strong>產業觀察：</strong>因理念爭議傳出拒絕五角大廈標案；企業端出現 AI 導向的人力重整案例。</p>
         </div>
       </div>
     </section>
@@ -81,10 +83,10 @@
       <div class="figure-card">
         <img src="assets/images/fig-elon-musk.jpg" alt="Elon Musk" class="figure-img">
         <div>
-          <h3>xAI - 即時性與代理敘事</h3>
+          <h3>xAI - 追求真相的真理機器</h3>
           <p><strong>代表人物：Elon Musk</strong></p>
           <p><strong>最新模型：</strong>Grok 4.2（Beta）。</p>
-          <p><strong>核心特色：</strong>4 代理人協同系統，可互相審題與交叉驗證；並即時串接 X 平台資料。</p>
+          <p><strong>核心特色：</strong>4 代理人協同系統，可互相審題與交叉驗證；即時串接 X 平台資料。</p>
         </div>
       </div>
     </section>
@@ -95,89 +97,146 @@
         <div>
           <h3>Gemini - 多模態生態系</h3>
           <p><strong>代表人物：Demis Hassabis（Google DeepMind CEO）</strong></p>
-          <p><strong>關鍵成就：</strong>AlphaGo（圍棋）與 AlphaFold（蛋白質折疊）；並在 2024 年獲得諾貝爾化學獎。</p>
-          <p><strong>Gemini 多模態能力：</strong>支援文字、圖片、音訊與影片理解/生成，能在單一工作流內完成教學內容設計、視覺創作與音樂生成。</p>
-          <p>對應到今天課程：Gemini 3 系列、Nano Banana 2 與 Lyria 3，就是多模態能力在教育場域的實際落地。</p>
+          <p><strong>關鍵成就：</strong>AlphaGo、AlphaFold、2024 諾貝爾化學獎。</p>
+          <p><strong>Gemini 核心模型：</strong>Gemini 3 Thinking、Gemini 3.1 Pro（2M+ 上下文）、Nano Banana 2。</p>
+          <p><strong>Gemini 多模態能力：</strong>支援文字、圖片、音訊、影片的理解與生成。</p>
         </div>
       </div>
     </section>
 
-    <h2>二、攻略：教育帳號與模型配額</h2>
+    <h2>二、基礎建設：教育帳號與模型配額</h2>
     <section class="card">
-      <h3>教育帳號申請與登錄</h3>
-      <p>使用 @go.edu.tw 或 @gm.tn.edu.tw 解鎖高階 AI 權限，快速切換 Gemini 企業版環境。</p>
+      <h3>教育帳號申請、登入與切換</h3>
+      <ul>
+        <li>申請：進入 go.k12cc.tw 或台南局門戶，用 OPEN ID 授權。</li>
+        <li>登入 Gemini：輸入完整教育信箱，導向 OpenID 認證。</li>
+        <li>開啟路徑：gemini.google.com 或右上角九宮格進入。</li>
+        <li>身分確認：右上角頭像需顯示教育帳號，確保完整權限。</li>
+      </ul>
     </section>
     <section class="card">
-      <h3>模型選擇與生成限額</h3>
-      <p>掌握 Flash (快速)、Pro (精準) 與 Thinking (深度) 的使用時機，了解多模態生成額度規律。</p>
+      <h3>Gemini 模型選用與生成限額</h3>
+      <ul>
+        <li><strong>3 Flash</strong>：速度最快，日常問答主力。</li>
+        <li><strong>3.1 Pro</strong>：推理更強，適合深度任務。</li>
+        <li><strong>Thinking</strong>：適合複雜邏輯與教案規劃。</li>
+      </ul>
     </section>
 
-    <h2>三、影像：Nano Banana 2 五大神技</h2>
+    <h2>三、Nano Banana 2：五大神技實戰</h2>
     <section class="card">
-      <h3>神技一：生活照轉沙龍照</h3>
-      <p>AI 自動去背、補光、更換正式服裝，生活隨拍秒變專業形象照。</p>
+      <span class="tag">神技一</span>
+      <h3>日常轉正：生活照變沙龍照 / 證件照</h3>
+      <ul>
+        <li>先上傳生活照作為基準人像。</li>
+        <li>再下「韓系沙龍照」或「正式證件照」轉換指令。</li>
+        <li>AI 自動完成光線、服裝與背景優化。</li>
+      </ul>
       <div class="grid"><div class="ph">Before 生活照</div><div class="ph">After 專業沙龍照</div></div>
     </section>
+
     <section class="card">
-      <h3>神技二：地景活化模擬</h3>
-      <p>拍攝舊設施（如溜滑梯），讓 AI 模擬改造成藝術地標的視覺效果。</p>
+      <span class="tag">神技二</span>
+      <h3>地景活化：透過對話重塑校園地標</h3>
+      <ul>
+        <li>上傳舊溜滑梯照片，直接對話討論改造方案。</li>
+        <li>AI 先給設計方向，再生成視覺模擬圖。</li>
+      </ul>
       <div class="ph">舊溜滑梯設施 → 校園藝術地標模擬</div>
     </section>
+
     <section class="card">
-      <h3>神技三：文件一鍵轉海報</h3>
-      <p>上傳書展計畫 PDF，AI 自動擷取重點並產出高質感活動宣傳海報。</p>
+      <span class="tag">神技三</span>
+      <h3>文件轉圖：企劃書秒變活動海報</h3>
+      <ul>
+        <li>上傳書展企劃 PDF。</li>
+        <li>一句話下咒：「根據計畫內容產生吸引人的海報」。</li>
+      </ul>
       <div class="ph">企劃書內容 → 視覺化活動海報</div>
     </section>
+
     <section class="card">
-      <h3>神技四：老照片修復</h3>
-      <p>自動補損、除噪、上色，找回校園與歷史的清晰記憶。</p>
+      <span class="tag">神技四</span>
+      <h3>時光修復：賦予校園老照片新生命</h3>
+      <ul>
+        <li>上傳老照片，直接指令「修復老照片」。</li>
+        <li>AI 自動補損、降噪、上色、提升清晰度。</li>
+      </ul>
       <div class="grid"><div class="ph">破損模糊老照片</div><div class="ph">清晰還原修復照</div></div>
     </section>
+
     <section class="card">
-      <h3>神技五：穿搭遷移</h3>
-      <p>人物 A + 服裝 B 的風格融合，展現 AI 對物件解構的理解力。</p>
+      <span class="tag">神技五</span>
+      <h3>穿搭遷移：人物與服裝特徵融合</h3>
+      <ul>
+        <li>上傳人像 + 服裝型錄圖。</li>
+        <li>AI 會保留人物特徵並精準遷移服裝版型。</li>
+      </ul>
       <div class="ph">人物特徵 + 指定服裝 → 完美換裝成果</div>
     </section>
 
-    <h2>四、實作：Vibe Coding 說話即程式</h2>
+    <h2>四、Vibe Coding：說話即程式</h2>
     <section class="card">
-      <h3>互動教材製作 (Canvas)</h3>
-      <p>透過自然對話，秒造「公轉自轉與晝夜關係」互動模擬介面。</p>
+      <h3>互動教材製作（Canvas）</h3>
+      <ul>
+        <li>工具箱切到 Canvas。</li>
+        <li>一句話需求：「做國小公轉自轉與晝夜互動介面」。</li>
+        <li>AI 自動產生可運行的 HTML/CSS/JS 教材。</li>
+      </ul>
     </section>
     <section class="card">
       <h3>行政一頁式網頁</h3>
-      <p>將複雜的入學流程文件轉化為直觀、好讀的 HTML 互動導覽頁面。</p>
+      <ul>
+        <li>上傳「新生入學流程 PDF / Q&A 清單」。</li>
+        <li>指令生成一頁式 HTML，供行政答詢快速查閱。</li>
+      </ul>
     </section>
     <section class="card">
       <h3>Google Sites 部署</h3>
-      <p>將開發好的網頁整頁嵌入 Google Sites，設定網址並一鍵公開發布。</p>
+      <ul>
+        <li>九宮格進入協作平台，建立空白網站。</li>
+        <li>插入 → 嵌入 → 貼上 HTML，整頁預覽。</li>
+        <li>發布網站，取得可公開網址。</li>
+      </ul>
     </section>
 
-    <h2>五、應用：NotebookLM 知識補完</h2>
+    <h2>五、NotebookLM：長文本變多媒體</h2>
     <section class="card">
-      <h3>文件轉廣播劇與簡報</h3>
-      <p>上傳來源文件，由 AI 自動摘要並生成雙人對談的語音廣播 (Deep Dive)。</p>
+      <h3>從大量文件到專業簡報與 AI 廣播劇</h3>
+      <ul>
+        <li>建立筆記本，新增 PDF / 網址來源。</li>
+        <li>中間區快速摘要，右側工作室生成語音摘要。</li>
+        <li>可把複雜資料快速變成可講、可聽、可教的內容。</li>
+      </ul>
     </section>
 
-    <h2>六、創意：多媒體 AI 魔法</h2>
+    <h2>六、多媒體創意實踐：音樂與影像</h2>
     <section class="card">
       <h3>Lyria 3 音樂創作</h3>
-      <p>文字下咒或上傳圖片，讓 AI 創作專屬的校園活動主題曲。</p>
+      <ul>
+        <li>Gemini 工具箱選「創作音樂」。</li>
+        <li>文字下咒：例如國小健康促進主題曲。</li>
+        <li>或上傳圖片，讓 AI 根據畫面氛圍作曲。</li>
+      </ul>
     </section>
     <section class="card">
-      <h3>Grok 4.2 影像動態化</h3>
-      <p>登入流程：Continue with Google 快速登入。<br>產生動態：Imagine 模式上傳照片，右側選「製作影片」即可生成。</p>
+      <h3>Grok：登入與動態影片生成</h3>
+      <ul>
+        <li>登入：grok.com → Sign up / Log in → Continue with Google。</li>
+        <li>Imagine：上傳照片 → 右側選「製作影片」→ 送出生成。</li>
+      </ul>
     </section>
     <section class="card">
-      <h3>案例展示：清明上河圖</h3>
-      <p>讓靜態名畫動起來，具備層次感與敘事性的影像展示。</p>
-      <div class="ph">🎞️ 清明上河圖動態化成品影片</div>
+      <h3>案例展示：清明上河圖動態化成品</h3>
+      <p>展示重點：人物、船隻、旗幟、煙霧具層次運動，鏡頭具敘事感。</p>
+      <div class="ph">🎞️ 清明上河圖動態化成品影片（YouTube / MP4）</div>
     </section>
 
     <h2>結語：AI 代理人的時代</h2>
     <section class="card">
       <h3>我們已經進入代理人協作時代</h3>
-      <p>今天的課程內容其實已落後頂尖使用者半年。真正的前沿是「代理人協作」——這份網頁與簡報，全都是透過 Telegram 與我的 AI 助手對話，由他代理完成的。</p>
+      <p>今天這堂課其實已落後前沿使用約半年。下一步不是只會寫提示詞，而是會帶領 AI Agent 長期協作。</p>
+      <p>這份教材本身，就是透過 Telegram 與 AI 助手協作完成。</p>
       <img src="assets/images/p22-telegram-chat.jpg" alt="Telegram 代理人協作截圖" />
     </section>
   </div>
