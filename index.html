@@ -7,16 +7,18 @@
   <style>
     body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans TC",sans-serif;line-height:1.65;margin:0;background:#f6f8fb;color:#1f2937}
     .wrap{max-width:980px;margin:0 auto;padding:28px 18px 60px}
-    .hero{background:#111827;color:#fff;padding:28px;border-radius:16px}
+    .hero{background:#111827;color:#fff;padding:40px 28px;border-radius:16px;text-align:center;margin-bottom:30px}
     h1,h2,h3{margin:.2em 0}
-    h2{margin-top:34px;border-left:4px solid #2563eb;padding-left:10px}
-    .card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:18px;margin:14px 0}
+    h2{margin-top:40px;border-left:5px solid #2563eb;padding-left:15px;color:#111827;font-size:1.8em}
+    .card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:24px;margin:20px 0;box-shadow:0 1px 3px rgba(0,0,0,0.1)}
+    .card h3{color:#2563eb;border-bottom:1px solid #f3f4f6;padding-bottom:10px;margin-bottom:15px}
     .muted{color:#6b7280}
     ul,ol{margin:8px 0 0 22px}
-    .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-    .ph{border:1px dashed #94a3b8;border-radius:10px;padding:14px;background:#f8fafc;text-align:center;color:#475569}
-    img{max-width:100%;border-radius:10px;border:1px solid #e5e7eb}
-    .toc li{margin:4px 0}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:15px 0}
+    .ph{border:1px dashed #94a3b8;border-radius:10px;padding:30px 14px;background:#f8fafc;text-align:center;color:#475569}
+    img{max-width:100%;border-radius:10px;border:1px solid #e5e7eb;margin-top:10px}
+    .toc-card{background:#eff6ff;border:1px solid #bfdbfe}
+    .toc li{margin:8px 0;font-weight:500}
     @media (max-width: 760px){.grid{grid-template-columns:1fr}}
   </style>
 </head>
@@ -24,59 +26,118 @@
   <div class="wrap">
     <section class="hero">
       <h1>2026 Q1 AI Must-Knows</h1>
-      <p class="muted" style="color:#cbd5e1">從 LLM 四巨頭到 Vibe Coding 實戰（Yongci）</p>
+      <p style="color:#cbd5e1;font-size:1.2em">智力降價後的教育新範式：說話即程式，創意即產權</p>
+      <p class="muted" style="color:#94a3b8;margin-top:20px">講師：Yongci</p>
     </section>
 
-    <section class="card">
-      <h3>P1｜今日研習大綱</h3>
+    <section class="card toc-card">
+      <h3>今日研習大綱</h3>
       <ol class="toc">
         <li>LLM 四巨頭巔峰對決</li>
-        <li>教育帳號申請與登入</li>
-        <li>Gemini 模型與生成限額</li>
-        <li>Nano Banana 五大神技</li>
-        <li>Vibe Coding：互動教材 + 一頁式網頁 + 部署</li>
-        <li>NotebookLM：文件轉廣播劇/簡報</li>
-        <li>多媒體實作：Lyria 3 音樂 + Grok 影片</li>
+        <li>教育帳號申請與登錄</li>
+        <li>Gemini 攻略與生成限額</li>
+        <li>Nano Banana 2 五大神技</li>
+        <li>Vibe Coding 實作：網頁開發與部署</li>
+        <li>NotebookLM 應用：文件轉廣播劇</li>
+        <li>多媒體創意實踐：Lyria 3 音樂與 Grok 影像</li>
       </ol>
     </section>
 
-    <h2>第一階段｜模型趨勢</h2>
-    <section class="card"><h3>P2 OpenAI</h3><p>GPT-5.3 / 5.2 Thinking，推理能力與穩定性提升。</p></section>
-    <section class="card"><h3>P3 Anthropic</h3><p>Claude 4.6，強邏輯與 Coding；補充產業衝擊案例。</p></section>
-    <section class="card"><h3>P4 xAI</h3><p>Grok 4.2，強調即時資料與多代理敘事。</p></section>
-    <section class="card"><h3>P5 Google</h3><p>Gemini 3 系列、Nano Banana 2、Lyria 3。</p></section>
-    <section class="card"><h3>P6 Demis Hassabis</h3><p>DeepMind 背景與科學研究導向。</p></section>
-
-    <h2>第二階段｜教育帳號與模型攻略</h2>
-    <section class="card"><h3>P7 帳號申請 / 登錄</h3><p>@go.edu.tw / @gm.tn.edu.tw 申請、登入、切換 Gemini。</p></section>
-    <section class="card"><h3>P8 模型與配額</h3><p>Flash / Pro / Thinking 與圖音影研究配額概覽。</p></section>
-
-    <h2>第三階段｜Nano Banana 五大神技</h2>
-    <section class="card"><h3>P9 生活照→沙龍照/證件照</h3><div class="grid"><div class="ph">Before 生活照</div><div class="ph">After 沙龍照</div></div></section>
-    <section class="card"><h3>P10 地景活化</h3><div class="ph">舊溜滑梯 → 校園藝術地標</div></section>
-    <section class="card"><h3>P11 文件轉海報</h3><div class="ph">書展計畫 PDF → 活動海報</div></section>
-    <section class="card"><h3>P12 老照片修復</h3><div class="grid"><div class="ph">Before 老照片</div><div class="ph">After 修復</div></div></section>
-    <section class="card"><h3>P13 穿搭遷移</h3><div class="ph">人物 A + 服裝 B → 融合成果</div></section>
-
-    <h2>第四階段｜Vibe Coding</h2>
-    <section class="card"><h3>P14 互動教材</h3><p>Canvas：公轉/自轉/晝夜互動介面。</p></section>
-    <section class="card"><h3>P15 行政一頁式網頁</h3><p>入學流程 PDF → HTML 導覽頁。</p></section>
-    <section class="card"><h3>P16 Google Sites 部署</h3><p>整頁嵌入、設首頁、公開與發布網址。</p></section>
-
-    <h2>第五階段｜NotebookLM</h2>
-    <section class="card"><h3>P17 一鍵多媒體</h3><p>九宮格進入 NotebookLM → 新增來源 → 中間摘要 → 右側工作室產生語音摘要。</p></section>
-
-    <h2>第六階段｜音樂與影片</h2>
-    <section class="card"><h3>P18 Lyria 3 音樂創作</h3><p>工具箱選「創作音樂」，文字下咒或上傳圖片作曲。</p></section>
-    <section class="card"><h3>P19 Grok 登入流程（Google）</h3><ol><li>開啟 grok.com</li><li>Sign up / Log in</li><li>Continue with Google</li><li>同意授權並完成基本資料</li></ol></section>
-    <section class="card"><h3>P20 Grok Imagine 產生動態影像</h3><ol><li>左側 Imagine</li><li>+照片上傳</li><li>右側選製作影片</li><li>送出生成</li></ol></section>
-    <section class="card"><h3>P21 清明上河圖案例</h3><div class="ph">放成品影片（YouTube/MP4）</div></section>
-
-    <h2>結語</h2>
+    <h2>一、模型趨勢：LLM 四巨頭巔峰對決</h2>
     <section class="card">
-      <h3>P22 我們已進入 AI 代理人時代</h3>
-      <p>這份教材本身就是 Telegram 與 AI 助手協作產出。</p>
-      <img src="assets/images/p22-telegram-chat.jpg" alt="Telegram 對話截圖" />
+      <h3>OpenAI - 智力的黃金標準</h3>
+      <p>GPT-5.3 Spark / 5.2 Thinking。引入「思考鏈」可視化，推理能力與邏輯穩定性大幅提升。</p>
+    </section>
+    <section class="card">
+      <h3>Anthropic - 工程師的靈魂伴侶</h3>
+      <p>Claude 4.6 (Opus / Sonnet)。業界最嚴謹的「憲法 AI」安全對齊，程式開發能力極強。</p>
+    </section>
+    <section class="card">
+      <h3>xAI - 即時性與代理敘事</h3>
+      <p>Grok 4.2。背靠 X 平台即時數據，強調多代理協作敘事。</p>
+    </section>
+    <section class="card">
+      <h3>Google - 多模態生態系</h3>
+      <p>Gemini 3 系列、Nano Banana 2 影像神技與 Lyria 3 音樂模型。</p>
+    </section>
+
+    <h2>二、攻略：教育帳號與模型配額</h2>
+    <section class="card">
+      <h3>教育帳號申請與登錄</h3>
+      <p>使用 @go.edu.tw 或 @gm.tn.edu.tw 解鎖高階 AI 權限，快速切換 Gemini 企業版環境。</p>
+    </section>
+    <section class="card">
+      <h3>模型選擇與生成限額</h3>
+      <p>掌握 Flash (快速)、Pro (精準) 與 Thinking (深度) 的使用時機，了解多模態生成額度規律。</p>
+    </section>
+
+    <h2>三、影像：Nano Banana 2 五大神技</h2>
+    <section class="card">
+      <h3>神技一：生活照轉沙龍照</h3>
+      <p>AI 自動去背、補光、更換正式服裝，生活隨拍秒變專業形象照。</p>
+      <div class="grid"><div class="ph">Before 生活照</div><div class="ph">After 專業沙龍照</div></div>
+    </section>
+    <section class="card">
+      <h3>神技二：地景活化模擬</h3>
+      <p>拍攝舊設施（如溜滑梯），讓 AI 模擬改造成藝術地標的視覺效果。</p>
+      <div class="ph">舊溜滑梯設施 → 校園藝術地標模擬</div>
+    </section>
+    <section class="card">
+      <h3>神技三：文件一鍵轉海報</h3>
+      <p>上傳書展計畫 PDF，AI 自動擷取重點並產出高質感活動宣傳海報。</p>
+      <div class="ph">企劃書內容 → 視覺化活動海報</div>
+    </section>
+    <section class="card">
+      <h3>神技四：老照片修復</h3>
+      <p>自動補損、除噪、上色，找回校園與歷史的清晰記憶。</p>
+      <div class="grid"><div class="ph">破損模糊老照片</div><div class="ph">清晰還原修復照</div></div>
+    </section>
+    <section class="card">
+      <h3>神技五：穿搭遷移</h3>
+      <p>人物 A + 服裝 B 的風格融合，展現 AI 對物件解構的理解力。</p>
+      <div class="ph">人物特徵 + 指定服裝 → 完美換裝成果</div>
+    </section>
+
+    <h2>四、實作：Vibe Coding 說話即程式</h2>
+    <section class="card">
+      <h3>互動教材製作 (Canvas)</h3>
+      <p>透過自然對話，秒造「公轉自轉與晝夜關係」互動模擬介面。</p>
+    </section>
+    <section class="card">
+      <h3>行政一頁式網頁</h3>
+      <p>將複雜的入學流程文件轉化為直觀、好讀的 HTML 互動導覽頁面。</p>
+    </section>
+    <section class="card">
+      <h3>Google Sites 部署</h3>
+      <p>將開發好的網頁整頁嵌入 Google Sites，設定網址並一鍵公開發布。</p>
+    </section>
+
+    <h2>五、應用：NotebookLM 知識補完</h2>
+    <section class="card">
+      <h3>文件轉廣播劇與簡報</h3>
+      <p>上傳來源文件，由 AI 自動摘要並生成雙人對談的語音廣播 (Deep Dive)。</p>
+    </section>
+
+    <h2>六、創意：多媒體 AI 魔法</h2>
+    <section class="card">
+      <h3>Lyria 3 音樂創作</h3>
+      <p>文字下咒或上傳圖片，讓 AI 創作專屬的校園活動主題曲。</p>
+    </section>
+    <section class="card">
+      <h3>Grok 4.2 影像動態化</h3>
+      <p>登入流程：Continue with Google 快速登入。<br>產生動態：Imagine 模式上傳照片，右側選「製作影片」即可生成。</p>
+    </section>
+    <section class="card">
+      <h3>案例展示：清明上河圖</h3>
+      <p>讓靜態名畫動起來，具備層次感與敘事性的影像展示。</p>
+      <div class="ph">🎞️ 清明上河圖動態化成品影片</div>
+    </section>
+
+    <h2>結語：AI 代理人的時代</h2>
+    <section class="card">
+      <h3>我們已經進入代理人協作時代</h3>
+      <p>今天的課程內容其實已落後頂尖使用者半年。真正的前沿是「代理人協作」——這份網頁與簡報，全都是透過 Telegram 與我的 AI 助手對話，由他代理完成的。</p>
+      <img src="assets/images/p22-telegram-chat.jpg" alt="Telegram 代理人協作截圖" />
     </section>
   </div>
 </body>
